@@ -1,1 +1,31 @@
-style.css
+Body{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+    margin: 0;
+    background-color: #f4f4f4;
+    color: #333;
+
+}
+.innhold{
+    max-width: 800px;
+    margin: 0;
+    padding: 20px;
+}
+.questions-section{
+    background: linear-gradient(135deg,#6a82fb,#fc5c7d);
+    color:#fff;
+    padding:30px;
+    text-align: center;
+    border-radius: 8px;
+    margin-bottom: 30px;
+}
+
+.questions-section h2{
+    font-size: 20px;
+margin-bottom: 10px;
+}
+.questions-section p{
+    font-size: 16px 
+    margin 0;
+}
+
+
