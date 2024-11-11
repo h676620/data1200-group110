@@ -1,31 +1,31 @@
-Body{
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
-    margin: 0;
-    background-color: #f4f4f4;
-    color: #333;
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  
+}
+body{
+  font font-family: Arial, sans-serif;
 
 }
-.innhold{
-    max-width: 800px;
-    margin: 0;
-    padding: 20px;
+header{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #ffd700;
+  padding: 20px 40px;
+  position: relative;
+
 }
-.questions-section{
-    background: linear-gradient(135deg,#6a82fb,#fc5c7d);
-    color:#fff;
-    padding:30px;
-    text-align: center;
-    border-radius: 8px;
-    margin-bottom: 30px;
+.logo-img{
+  height: 90px;
+}
+.main-boks{
+  position: relative;
+  background-color: #ffd700;
+  .main-boks
+
 }
 
-.questions-section h2{
-    font-size: 20px;
-margin-bottom: 10px;
-}
-.questions-section p{
-    font-size: 16px 
-    margin 0;
-}
 
 
