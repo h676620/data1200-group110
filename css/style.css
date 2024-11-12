@@ -1,31 +1,47 @@
+.sidenav{
+    position: fixed;
+    height: 100%;
+    width: 160px;
+    z-index: 1;
+    top: o;
+    left: 0;
+    background-color: black;
+    overflow-x: hidden;
+
+}
+
+.sidenav a {
+    font-family: serif;
+    padding: 12px;
+    font-size: 20px;
+    color: aliceblue;
+    display: block;
+    text-decoration: none;
+
+
+}
 *{
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    
+  }
+ 
+
+  header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #10100f;
+    padding: 20px 40px;
+    position: relative;
   
-}
-body{
-  font font-family: Arial, sans-serif;
+  }
+  .logo-img{
+    height: 90px;
+text-align: center;
 
-}
-header{
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  background-color: #ffd700;
-  padding: 20px 40px;
-  position: relative;
-
-}
-.logo-img{
-  height: 90px;
-}
-.main-boks{
-  position: relative;
-  background-color: #ffd700;
-  .main-boks
-
-}
-
-
+  }
+  
 
