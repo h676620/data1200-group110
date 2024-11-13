@@ -1,3 +1,4 @@
+/*sidebar: START*/
 .sidebar {
     height: 100%;
     width: 0;
@@ -44,6 +45,7 @@
   .openbtn:hover {
     background-color: #444;
   }
+/*sidebar: START*/
   
   #main {
     transition: margin-left .5s;
@@ -67,6 +69,61 @@ header{
 text-align: right;
 
 }
+
+/*Tabell for studieplanen START:*/
+.study-plan {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.semester {
+  margin-bottom: 40px;
+}
+
+.semester h3 {
+  font-size: 1.2em;
+  margin-bottom: 10px;
+  color: #b0b0b0;
+}
+
+.semester {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 15px;
+}
+
+.course-card {
+  background-color: #2e2e2e;
+  padding: 15px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.course-title {
+  font-size: 1em;
+  margin-bottom: 5px;
+  color: #ffffff;
+}
+
+.course-code {
+  font-size: 0.9em;
+  color: #a0a0a0;
+}
+
+.credits {
+  background-color: #424242;
+  color: #e0e0e0;
+  padding: 5px 10px;
+  border-radius: 12px;
+  font-size: 0.9em;
+  align-self: flex-start;
+}
+/*Tabell for studieplanen END:*/
+
 footer {
   background-color: black;
   color: white;
