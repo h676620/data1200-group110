@@ -45,7 +45,7 @@
   .openbtn:hover {
     background-color: #444;
   }
-/*sidebar: START*/
+/*sidebar: END*/
   
   #main {
     transition: margin-left .5s;
@@ -61,6 +61,8 @@ header{
     background-color: #10100f;
     padding: 20px 40px;
     position: relative;
+    color: white;
+
 
   
 }
