@@ -11,38 +11,43 @@
 
     <!--Header: Nathaa-->
     <header>
-        <div class="main-boks">
-      <div class="sidebar">
-        <a href="#">MENY</a>
-  
+      <div>
+        <img src="logo copy.jpeg" class="logo-img">
+      </div>
+      <div class="search-boks">
+        <input type="text" class="search-boks" placeholder="Søk...">
+        
+      </div>
+    <div class="sidebar" id="mySidebar">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a> 
+        <a href="#Om-Oslome">Om Oslomet</a>
+        <a href="#Studier">Studier</a>
+        <a href="#Biblotek">Biblotek</a>
+        <a href="#For-Studenter">For Studenter</a>
+        <a href="#Forskning">Forskning</a>
+        <a href="#Samarbeid">Samarbeid</a>
+        <a href="#Kontakt">Kontakt</a>
+        <a href="#Studieoversikt">Studieoversikt</a>
     </div>
-    <ul>
-      <li><a href="#"><i class="fas fa-qrcode"></i>
-        Om Oslomet</a></li>
-      <li><a href="#"><i class="fas fa-qrcode"></i>
-        Studier</a></li>
-      <li><a href="#"><i class="fas fa-qrcode"></i>
-        Biblotek</a></li>
-      <li><a href="#"><i class="fas fa-qrcode"></i>
-        For Studenter</a></li>
-      <li><a href="#"><i class="fas fa-qrcode"></i>
-        Forskning</a></li>
-      <li><a href="#"><i class="fa-phone-volume"></i>
-        Samarbeid</a></li>
-      <li><a href="#"><i class="fas fa-qrcode"></i>
-        Kontakt</a></li>
-    </ul>
-  </div>
-    </ul>
-  <div>
-    <img src="logo.png" class="logo-img">
 
-  </div>
-<div class="search-menu">
-  <input type="text" class="search-bar" placeholder="Search..">
-<button class="menu-btm">MENY</button>
-</div>
-    </header>
+    <div id="main">
+        <button class="openbtn" onclick="openNav()" >☰</button>
+    </div>
+  </header>
+    
+    <script>
+        function openNav() {
+          document.getElementById("mySidebar").style.width = "250px";
+          document.getElementById("main").style.marginLeft = "250px";
+        }
+        
+        function closeNav() {
+          document.getElementById("mySidebar").style.width = "0";
+          document.getElementById("main").style.marginLeft= "0";
+        }
+    </script>
+    
+
     
     <main>
         
