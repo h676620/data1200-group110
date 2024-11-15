@@ -130,5 +130,30 @@ footer {
   background-color: black;
   color: white;
 }
+footer{
+  h2{
+background-color: white;
+margin: 20px 0; /* Avstand over og under */
+
+  }
+}
+.footer-content{
+  display: flex;
+  max-width: 1200px;
+  margin: 0 auto;
+  justify-content: space-between;
+}
+.footer-colum{
+  flex: 1;
+  padding: 1rem;
+  text-align: left;
+}
+.footer-colum a{
+  color: white;
+  text-decoration: none;
+}
+.footer-colum a:hover{
+  text-decoration: underline;
+}
 
 
